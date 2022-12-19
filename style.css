@@ -1,0 +1,104 @@
+body{
+  font-family: 'JetBrains Mono', monospace;
+  background-color: #2F2E41;
+  margin: 0px;
+  color: #C2C2C2;
+}
+
+#page{
+  width: 1280px;
+  padding-top: 71px;
+  margin: 101px auto 23px 99px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  margin-bottom: 101px ;
+  
+}
+
+ul{
+  gap: 64px ;
+  list-style: none;  
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+  /*opacity: 0.5;  poderia colocar aqui? */
+}
+
+/*ul li{ (meu erro: era pra chamar a tag "a" e não  "ul li")
+  text-decoration: none;  
+}*/ 
+
+ul li a{
+  opacity: 0.5; /* por que nao colocar isso dentro do "a" anterior?*/
+}
+
+ul li a:hover{ /*meu erro: tinha esquecido de colocar isso*/
+  font-weight: bold;
+  opacity: 1;
+}
+
+h1{
+  font-size: 36px;
+  line-height: 40px;
+}
+
+span {
+  color: #00BFA6;
+}
+
+section p{ 
+  color: #7D7987 ;
+  font-family: 'Open Sans', sans-serif;  
+}
+
+p span{
+  font-weight: bold;
+}
+
+.text1{
+  color: #7D7987 ;
+}
+
+section{ /* engloba imagem e texto*/
+  display: flex;
+  text-align: center;
+  justify-content: space-between; /* meu erro: tinha esquecido 
+                                  esse comando. serve para alinhar uma imagem em relação a outra com espaço no meio */
+  font-size: 16px;
+  gap: 77px;
+  line-height: 28px;
+
+  margin: 0px auto 157px;
+}
+
+ #line{
+  border: 1px solid  #00BFA6;
+  position: absolute;
+  margin: 0px 356px 27px;
+  width: 568px;
+  height: 0px;
+  
+}
+
+footer p{
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center; 
+  padding-top: 27px; /*pq funciona padding e nao margin?*/
+}
+
+#padlock{
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
